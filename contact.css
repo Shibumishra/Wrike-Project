@@ -1,0 +1,259 @@
+#navbar {
+    height: 68px;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#navbar > :nth-child(n) {
+    float: left;
+    
+}
+#navbar > a > img {
+    width: 120px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+ul {
+    margin-left: 20px;
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 34px;
+    text-align: left;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: -40px;
+    color: rgb(24, 31, 56);
+}
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(24, 31, 56);
+}
+.dropdown li:nth-child(1) {
+    padding-top: 30px;
+}
+ul li a:hover {
+    color: rgb(40, 141, 121);
+}
+.dropdown {
+    width: 180px;
+    display: none;
+    position: absolute;
+    margin-left: -10px;
+    background-color: rgb(252, 252, 252);
+}
+ul li:hover ul.dropdown{ 
+    display: block;
+}
+.solution-menu {
+    margin-left: -60px;
+}
+.grey-heading > a {
+    color: rgb(143, 143, 143);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.grey-heading > a:hover {
+    color: rgb(143, 143, 143);
+    cursor: auto;       
+}
+.all-teams > a {
+    color: rgb(34, 121, 103);
+}
+.all-teams > a:hover {
+    color: rgb(29, 175, 146);
+    font-size: 17px;
+}
+.solution-first-part {
+    float: left;
+    width: 200px;
+}
+.solution-second-part {
+    float: right;
+}
+.price {
+    margin-left: -130px;
+}
+.resource-menu > a{
+    margin-left: -40px;
+}
+.resource-first-part {
+    width: 200px;
+}
+.resource-third-part {
+    float: right;
+}
+.login > a{
+    margin-left: -120px;
+    color: rgb(38, 140, 120);
+}
+.login > a:hover {
+    color:  rgb(7, 206, 67);
+}
+.start-for-free {
+    float: right;
+    margin-left: 1100px;
+    margin-top: -98px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(7, 206, 67);
+    border: none;
+    font-weight: bold;
+}
+.start-for-free:hover {
+    background-color: rgb(4, 186, 113);
+    cursor: pointer;
+    transition-delay: 0.1s;
+}
+#sales{
+    width:100%;
+    height:40%;
+    background-color:rgb(240 250 240);
+    margin:68px 0px;
+    padding:20px
+}
+.saleshead{
+    font-size:52px;
+    padding:1px 400px
+}
+.salespara{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:22px;
+    color:grey;
+    padding:2px 450px 2px 420px;
+}
+#register{
+    width:100%;
+    height:100%;
+}
+.registerhead{
+     padding:1px 375px;
+     font-size:40px;
+     font-family: 'Castoro', serif;
+}
+.registerpara{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+    color:grey;
+    padding:0px 200px
+}
+.name,.business,.dep,.phone,.job,.buttoninput{
+    width:500px;
+    height:60px;
+    margin:10px 370px;
+    background-color:rgb(250 250 250);
+}
+.registerpara2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:14px;
+    color:grey;
+    padding:0px 370px
+}
+.error,.error1,.error2,.error3,.error4{
+    color:red;
+    margin-top:10px;
+    margin-left:365px
+}
+footer {
+clear: both;
+height: 900px;
+margin-top: 350px;
+border: 1px solid black;
+display: grid;
+grid-template-areas: "prod sol res comp"
+                     "late late late late"
+                     "link link link link"
+                     "app app app app";
+background-color: rgb(12, 50, 69);
+}
+.product {
+height: 350px;
+width: 300px;
+padding-left: 20px;
+grid-area: prod;
+}
+.product > h2, .solutions > h2, .resources > h2, .product > h2, .latest > h2, .company > h2, .links > i {
+color: white;
+padding-left: 30px;
+}
+.product > a, .solutions > a, .resources > a, .product > a, .latest > a, .company > a {
+line-height: 32px;
+text-decoration: none;
+color: rgb(206, 206, 206);
+padding-left: 30px;
+}
+.product > a:hover, .solutions > a:hover, .resources > a:hover, .product > a:hover, .latest > a:hover, .company > a:hover{
+text-decoration: underline;
+color: #53e9aa;
+}
+.solutions {
+height: 350px;
+width: 300px;
+padding-left: 20px;
+grid-area: sol;
+}
+.resources {
+height: 350px;
+width: 300px;
+padding-left: 20px;
+grid-area: res;
+}
+.company {
+height: 350px;
+width: 300px;
+padding-left: 20px;
+grid-area: comp;
+}
+.latest {
+height: 250px;
+padding-left: 20px;
+grid-area: late;
+}
+.links {
+height: 100px;
+float: left;
+padding-left: 20px;
+grid-area: link;
+}
+.links > i {
+padding-top: 40px;
+font-size: 24px;
+padding-right: 20px;
+}
+.links > i:hover {
+color: #53e9aa;
+cursor: pointer;
+}
+.app-store {
+height: 100px;
+padding-left: 20px;
+grid-area: app;
+float: left;
+}
+.app-store > img {
+padding-top: 20px;
+padding-right: 20px;
+}
+.line {
+height: 1px;
+width: 1280px;
+background-color: #84DB77;
+}
+.app-store > p > a {
+color: white;
+}
+.app-store > p > a:hover {
+color: grey;
+text-decoration: none;
+}

@@ -1,0 +1,379 @@
+body{
+    margin: 0% auto;
+}
+#navbar {
+    height: 60px;
+    position: fixed;
+    padding: 16px;
+    background-color: white;
+    background-color:  #fff;
+    box-shadow: 0px 2px 4px #ccc;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    margin: 0% auto;
+}
+#navbar > :nth-child(n) {
+    float: left;
+    
+}
+#navbar > a > img {
+    width: 120px;
+    margin-top: -45px;
+    margin-left: 20px;
+} 
+ul {
+    margin-left: 20px;
+    list-style: none
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 34px;
+    text-align: left;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: -40px;
+    color: rgb(24, 31, 56);
+}
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(24, 31, 56);
+}
+.dropdown li:nth-child(1) {
+    padding-top: 30px;
+}
+ul li a:hover {
+    color: rgb(40, 141, 121);
+}
+.prduct{
+    left: 0;
+    cursor: auto;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 170px;
+}
+.dropdown {
+    width: 180px;
+    display: none;
+    position: relative;
+    position: absolute;
+    margin-left: -10px;
+    background-color: #fff;
+    box-shadow: 0 8px 24px rgb(43 56 87 / 12%);
+    border-radius: 4px;
+}
+ul li:hover ul.dropdown{ 
+    display: block;
+}
+.solution-menu {
+    margin-left: 15px;
+}
+.grey-heading > a {
+    color: rgb(143, 143, 143);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.grey-heading > a:hover {
+    color: rgb(143, 143, 143);
+    cursor: auto;       
+}
+.all-teams > a {
+    color: rgb(34, 121, 103);
+}
+.all-teams > a:hover {
+    color: rgb(29, 175, 146);
+    font-size: 17px;
+}
+.solution-first-part{
+    float: left;
+    margin: 0% auto;
+    left: 0;
+    position: absolute;
+    cursor: auto;
+    margin-left: 132px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 8px 24px rgb(43 56 87 / 12%);
+}
+.solution-second-part {
+    float:right;
+    margin: 0% auto;
+    right: 0;
+    position: absolute;
+    cursor: auto;
+    background-color: #fff;
+    box-shadow: 0 8px 24px rgb(43 56 87 / 12%);
+    border-radius: 4px;
+    
+}
+.price {
+    margin-left: -55px;
+}
+.resource-menu > a{
+    margin-left: 3px;
+    cursor: auto;
+}
+.resource-first-part {
+    width: 200px;
+}
+.resource-third-part {
+    float: right;
+}
+#left_topbar{
+    display: flex;
+    position: fixed;
+    display: inline-flex;
+    margin-left: 100px;
+}
+.contact{
+    position: absolute;
+
+}
+.language-menu{
+    margin-left: 25px;
+    font-size: 18px;
+}
+.login > a{
+    position: relative;
+    display: flex;
+    position: fixed;
+    display: inline-flex;
+    margin-top: -30px;
+    margin-left: -150px;
+    color: rgb(38, 140, 120);
+}
+.login > a:hover {
+    color:  rgb(7, 206, 67);
+}
+.start-for-free {
+    float: right;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(7, 206, 67);
+    border: none;
+    font-weight: bold;
+    margin-left: -140px;
+    margin-top: -5px;
+}
+.start-for-free:hover {
+    background-color: rgb(4, 186, 113);
+    cursor: pointer;
+    transition-delay: 0.1s;
+}
+#main{
+     background-color:rgb(245 245 250);
+}
+#containpara{
+    width:50%;
+    height:500px;
+    float:left;
+    margin:50px 20px;
+}
+#containimg{
+    width:40%;
+    height:500px;
+    float:left;
+    margin:50px 20px
+}
+#firstpage{
+    margin:-70px 30px 0px 150px;
+}
+#para1{
+    font-size:53px;
+    font-weight:normal;
+}
+#para2,.Browse{
+    font-size:20px;
+    color:grey;
+}
+#para3{
+    color:lightgrey;
+    margin:100px 10px 10px 1px;
+    font-size:20px;
+    font-weight:bold
+}
+.agile{
+    height:300px;
+    width:530px;
+    float:left;
+    margin:10px 20px;
+    background-color:white;
+}
+.agileimage,.agilepara{
+    float:left;
+    margin:1px 20px;
+    font-family: 'Libre Franklin', sans-serif;
+} 
+.head{
+    color:lightgrey;
+    font-size:18px;
+}
+.temp{
+    font-size:35px;
+    
+}
+.select{
+    float:left;
+    margin:10px 200px
+}
+.formdiv{
+    width:400px;
+    height:250px;
+}
+.forminfo{
+     width:450px;
+     height:560px;
+     float:right;
+}
+.forminput{
+    width:350px;
+    height:60px;
+    margin:10px 0px
+}
+.name,.business,.dep,.phone,.job,.buttoninput{
+    width:350px;
+    height:60px;
+    margin:10px 0px
+}
+.formpara{
+    color:grey;
+}
+.agilehead{
+    font-size:22px;
+    font-weight:normal;
+}
+.agilepara2{
+    font-weight:normal;
+    font-size:15px
+}
+.formimg{
+    width:400px;
+    height:400px;
+    float:left;
+    margin:200px 0px;
+}
+.bottomimg{
+    width:130px;
+    height:100px
+}
+.bottomimage{
+    width:150px;
+    height:100px;
+    margin:20px 15px
+}
+.bottomdiv{
+    color:grey;
+    font-size:17px;
+    width:150px;
+    height:100px;
+    margin:20px 15px;
+    padding:8px
+}
+.agileimage2{
+    width:55px;
+    height:55px;
+    margin:5px 1px
+}
+.error1,.error2,.error3,.error4,.error5{
+    color:red;
+    margin-top:15px;
+
+}
+footer {
+clear: both;
+height: 900px;
+margin-top: 20px;
+border: 1px solid black;
+display: grid;
+grid-template-areas: "prod sol res comp"
+                     "late late late late"
+                     "link link link link"
+                     "app app app app";
+background-color: rgb(12, 50, 69);
+}
+.product {
+height: 350px;
+width: 300px;
+padding-left: 20px;
+grid-area: prod;
+}
+.product > h2, .solutions > h2, .resources > h2, .product > h2, .latest > h2, .company > h2, .links > i {
+color: white;
+padding-left: 30px;
+}
+.product > a, .solutions > a, .resources > a, .product > a, .latest > a, .company > a {
+line-height: 32px;
+text-decoration: none;
+color: rgb(206, 206, 206);
+padding-left: 30px;
+}
+.product > a:hover, .solutions > a:hover, .resources > a:hover, .product > a:hover, .latest > a:hover, .company > a:hover{
+text-decoration: underline;
+color: #53e9aa;
+}
+.solutions {
+height: 350px;
+width: 300px;
+padding-left: 20px;
+grid-area: sol;
+}
+.resources {
+height: 350px;
+width: 300px;
+padding-left: 20px;
+grid-area: res;
+}
+.company {
+height: 350px;
+width: 300px;
+padding-left: 20px;
+grid-area: comp;
+}
+.latest {
+height: 250px;
+padding-left: 20px;
+grid-area: late;
+}
+.links {
+height: 100px;
+float: left;
+padding-left: 20px;
+grid-area: link;
+}
+.links > i {
+padding-top: 40px;
+font-size: 24px;
+padding-right: 20px;
+}
+.links > i:hover {
+color: #53e9aa;
+cursor: pointer;
+}
+.app-store {
+height: 100px;
+padding-left: 20px;
+grid-area: app;
+float: left;
+}
+.app-store > img {
+padding-top: 20px;
+padding-right: 20px;
+}
+.line {
+height: 1px;
+width: 1280px;
+background-color: #84DB77;
+}
+.app-store > p > a {
+color: white;
+}
+.app-store > p > a:hover {
+color: grey;
+text-decoration: none;
+}

@@ -1,0 +1,418 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#navbar {
+    height: 68px;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#navbar > :nth-child(n) {
+    float: left;
+    
+}
+#navbar > a > img {
+    width: 120px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+ul {
+    margin-left: 20px;
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 34px;
+    text-align: left;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: -40px;
+    color: rgb(24, 31, 56);
+}
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(24, 31, 56);
+}
+.dropdown li:nth-child(1) {
+    padding-top: 30px;
+}
+ul li a:hover {
+    color: rgb(40, 141, 121);
+}
+.dropdown {
+    width: 180px;
+    display: none;
+    position: absolute;
+    margin-left: -10px;
+    background-color: rgb(252, 252, 252);
+}
+ul li:hover ul.dropdown{ 
+    display: block;
+}
+.solution-menu {
+    margin-left: -60px;
+}
+.grey-heading > a {
+    color: rgb(143, 143, 143);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.grey-heading > a:hover {
+    color: rgb(143, 143, 143);
+    cursor: auto;       
+}
+.all-teams > a {
+    color: rgb(34, 121, 103);
+}
+.all-teams > a:hover {
+    color: rgb(29, 175, 146);
+    font-size: 17px;
+}
+.solution-first-part {
+    float: left;
+    width: 200px;
+}
+.solution-second-part {
+    float: right;
+}
+.price {
+    margin-left: -130px;
+}
+.resource-menu > a{
+    margin-left: -40px;
+}
+.resource-first-part {
+    width: 200px;
+}
+.resource-third-part {
+    float: right;
+}
+.login > a{
+    margin-left: -120px;
+    color: rgb(38, 140, 120);
+}
+.login > a:hover {
+    color:  rgb(7, 206, 67);
+}
+.start-for-free {
+    float: right;
+    margin-left: 1100px;
+    margin-top: -98px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(7, 206, 67);
+    border: none;
+    font-weight: bold;
+}
+.start-for-free:hover {
+    background-color: rgb(4, 186, 113);
+    cursor: pointer;
+    transition-delay: 0.1s;
+}
+.work-mgt-part {
+    height: 500px;
+    margin-top: 150px;
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-hero-illustration_teams.svg");
+    background-size: 1700px;
+    background-position-y: -130px;
+    background-position-x: -178px;
+}
+.work-mgt-heading {
+    height: 160px;
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+.work-mgt-heading > h1 {
+    font-size: 52px;
+    text-align: center;
+    color: #181F38;
+}
+.work-mgt-para {
+    height: 120px;
+    width: 600px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #6576A2;
+    margin-left: 350px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: lighter;
+}
+.work-mgt-entry {
+    height: 120px;
+    width: 700px;
+    margin-left: 290px;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+.work-mgt-entry > input,
+.start-trial-entry > input {
+    height: 50px;
+    width: 350px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    font-size: 22px;
+    padding-left: 20px;
+    background-color: #F8F9FB;
+}
+.work-mgt-entry > button,
+.start-trial-entry > button {
+    height: 55px;
+    padding: 18px;
+    margin-left: 5px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #08CF65;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.work-mgt-entry > input:hover,
+.start-trial-entry > input:hover {
+    border: 2px solid rgb(151, 151, 151);
+    
+}
+.work-mgt-entry > button:hover,
+.start-trial-entry > button:hover{
+    background-color: rgb(4, 186, 113);
+    transition-duration: 0.5s;
+}
+.cards {
+    height: 950px;
+    float: left;
+}
+.cards > div {
+    float: left;
+    margin-top: 150px;
+    margin-bottom: -120px;
+    border-radius: 5px;
+    background-color: #EBF5F3;
+    cursor: pointer;
+    color: #181F38;;
+}
+.card1, .card2, .card3, .card4, .card5 {
+    height: 360px;
+    width: 400px;
+    margin-left: 30px;
+}
+.cards > div > img {
+    padding: 20px 30px;
+}
+.cards > div > h3,p,a {
+    padding-left: 30px;
+}
+.cards > div > h3 {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.cards > div > p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.cards > div > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #094950;
+}
+.cards > div:hover {
+    background-color:  #094950;
+    color: white;
+    transition-duration: 0.5s;
+}
+.cards > div:hover > a {
+    color: rgb(140, 240, 155);
+    transition-duration: 0.5s;
+}
+.img1, .img2, .img3, .img4, .img5 {     /* Card imgs before hovering */
+    height: 100px;
+    width: 100px;
+    margin: 20px 30px;
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_company-wide.svg");
+}
+.cards > div:hover > .img1 {    /* Card 1 img after hovering */
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_company-wide_inverse.svg");
+    transition-duration: 0.5s;
+}
+.img2 {                 /* Card 2 img before hovering */
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_marketing.svg");
+}
+.img3 {                 /* Card 3 img before hovering */
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_creative.svg");
+}
+.img4 {                 /* Card 4 img before hovering */
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_project-management-pmo.svg");
+}
+.img5 {                 /* Card 5 img before hovering */
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_professional-services.svg");
+}
+.cards > div:hover > .img2 {        /* Card 2 img after hovering */
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_marketing_inverse.svg");
+    transition-duration: 0.5s;
+}
+.cards > div:hover > .img3 {        /* Card 3 img after hovering */
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_creative_inverse.svg");
+    transition-duration: 0.5s;
+}
+.cards > div:hover > .img4 {        /* Card 4 img after hovering */
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_project-management-pmo_inverse.svg");
+    transition-duration: 0.5s;
+}
+.cards > div:hover > .img5 {        /* Card 5 img after hovering */
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-icon_teams_professional-services_inverse.svg");
+    transition-duration: 0.5s;
+}
+.start-trial-box {
+    height: 400px;
+    width: 1330px;
+    float: left;
+    margin-top: 80px;
+}
+.start-trial-box > :nth-child(1) {
+    float: left;
+    height: 400px;
+    width: 250px;
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-cta-center-2_left_sandy_1x.png");
+    background-repeat: no-repeat;
+    background-position-x: -350px;
+    background-position-y: -100px;
+}
+.start-trial-box > :nth-child(3) {
+    float: right;
+    height: 400px;
+    width: 250px;
+    background-image: url("https://www.wrike.com/content/uploads/2020/06/rebrand-cta-center-2_right_sandy_1x.png");
+    background-repeat: no-repeat;
+    background-position-x: -10px;
+    background-position-y: 10px;
+    background-size: 500px;
+}
+.start-trial-box > :nth-child(2) {
+    height: 300px;
+    width: 820px;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    color: #181F38;
+}
+.start-trial-box > :nth-child(2) > h1 {
+    font-size: 38px;
+}
+.start-trial-box > :nth-child(2) > h3 {
+    font-weight: lighter;
+}
+.start-trial-entry {
+    margin-top: 100px;
+}
+footer {
+    clear: both;
+    height: 900px;
+    margin-top: 1550px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas: "prod sol res comp"
+                         "late late late late"
+                         "link link link link"
+                         "app app app app";
+    background-color: rgb(12, 50, 69);
+}
+.product {
+    height: 350px;
+    width: 300px;
+    padding-left: 20px;
+    grid-area: prod;
+}
+.product > h2, .solutions > h2, .resources > h2, .product > h2, .latest > h2, .company > h2, .links > i {
+    color: white;
+    padding-left: 30px;
+}
+.product > a, .solutions > a, .resources > a, .product > a, .latest > a, .company > a {
+    line-height: 32px;
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+.product > a:hover, .solutions > a:hover, .resources > a:hover, .product > a:hover, .latest > a:hover, .company > a:hover{
+    text-decoration: underline;
+    color: #53e9aa;
+}
+.solutions {
+    height: 350px;
+    width: 300px;
+    padding-left: 20px;
+    grid-area: sol;
+}
+.resources {
+    height: 350px;
+    width: 300px;
+    padding-left: 20px;
+    grid-area: res;
+}
+.company {
+    height: 350px;
+    width: 300px;
+    padding-left: 20px;
+    grid-area: comp;
+}
+.latest {
+    height: 250px;
+    padding-left: 20px;
+    grid-area: late;
+}
+.links {
+    height: 100px;
+    float: left;
+    padding-left: 20px;
+    grid-area: link;
+}
+.links > i {
+    padding-top: 40px;
+    font-size: 24px;
+    padding-right: 20px;
+}
+.links > i:hover {
+    color: #53e9aa;
+    cursor: pointer;
+}
+.app-store {
+    height: 100px;
+    padding-left: 20px;
+    grid-area: app;
+    float: left;
+}
+.app-store > img {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.line {
+    height: 1px;
+    width: 1280px;
+    background-color: #84DB77;
+}
+.app-store > p > a {
+    color: white;
+}
+.app-store > p > a:hover {
+    color: grey;
+    text-decoration: none;
+}
+.error-msg {
+    color: red;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+.error-msg2 {
+    margin-left: -400px;
+}
