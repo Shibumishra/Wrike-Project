@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');
-   *{
+*{
     margin: 0;
     padding: 0;
     font-family: "Open Sans",sans-serif;
@@ -8,15 +8,10 @@
     list-style: none;
 }
 body{
-    /* background-image: url( background-repeat: no-repeat;); */
-    margin: 0% auto;
+    background-image: url(img.jpg.jpeg);
+    background-size: 1349px;
     background-repeat: no-repeat;
-}
-.head_background{  
-    padding: 150px 0 0;
-    background-repeat: no-repeat;
-    background-size: 125%;
-    background-position: bottom center;
+    width: 75%;
 }
 nav{
     width: 100%;
@@ -58,7 +53,6 @@ nav{
     margin-top: 50px;
     margin-left: 400px;
     font-size: 60px;
-    text-decoration: none;
     
 }
 .text_1{
@@ -99,7 +93,6 @@ nav{
 }
 .tabs .tabs_container a:hover{
     color: #2d2d2d;
-    text-decoration: none;
 }
 .box{
     height: 400px;
@@ -111,14 +104,12 @@ nav{
     padding: 40px;
     margin-top: 20px;
     margin-left: 30px;
-    text-decoration: none;
 }
 .Pricing-table{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: min(1200px, 200%);
-    text-decoration: none;
 }
 .pricing-card{
     flex: 1;
@@ -132,7 +123,6 @@ nav{
     transition: 0.3s linear;
     border: 1px solid rgb(88, 86, 86);
     margin-top: 100px;
-    text-decoration: none;
 }
 .price{
     font-size: 25px;
@@ -142,7 +132,6 @@ nav{
 }
 .price ul li{
     padding-left: 10px;
-    text-decoration: none;
 
 }
 .price span{
@@ -170,7 +159,6 @@ ul p{
     border-radius: 8px;
     font-weight: 500;
     transition: .3s linear;
-    text-decoration: none;
 }
 .order-btn:hover{
     background-color: #00d6d6;
